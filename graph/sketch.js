@@ -33,8 +33,8 @@ function setup() {
     createCanvas(1000, 1000)
     background(50, 50, 255)
 
-    //Test2();
-    Test3();
+    Test2();
+    //Test3();
 }
 
 
