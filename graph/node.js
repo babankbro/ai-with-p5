@@ -19,3 +19,18 @@ Node.prototype.addChild = function(node){
      
     }
 }
+
+Node.prototype.display = function(){
+    
+    if (this.left){
+        this.left.display();        
+    }
+
+    console.log(this.val);
+    
+
+    if (this.right){
+        this.right.display();        
+    }
+}
+
