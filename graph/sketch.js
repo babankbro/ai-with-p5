@@ -26,7 +26,7 @@ function Test3(){
     tree.addValue(30 );
     tree.addValue(20 );
     console.log(tree);
-    tree.traverse();
+    //tree.traverse();
     tree.BFS();
     console.log("=============== Test DFS");
     tree.DFS();
