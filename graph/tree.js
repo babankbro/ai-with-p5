@@ -20,8 +20,6 @@ Tree.prototype.traverse = function(){
     this.root.display();
 }
 
-
-
 Tree.prototype.BFS = function(){
     var queue = [];
     queue.push(this.root);
@@ -41,7 +39,6 @@ Tree.prototype.BFS = function(){
     }
 
 }
-
 
 Tree.prototype.DFS = function(){
     var stack = [];
